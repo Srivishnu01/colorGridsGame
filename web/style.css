@@ -1,0 +1,56 @@
+.upgrid{
+    width: 95%;
+    height: 350px;
+    max-width: 450px;
+    max-height: 350px;
+    margin: auto;
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction:column;
+    
+}
+.uprow{
+    display:flex;
+    flex-direction: row;
+}
+.upbox{
+    width:20%;
+    height: 80px;
+    /* background-color: blue; */
+    border:2px solid black;
+    margin : 5px;
+    border-radius:8px;
+}
+/* @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:100px;}
+  } */
+.downgrid{
+    width: fit-content;
+    height: fit-content ;
+    max-width: 800px;
+    max-height: 800px;
+    margin: auto;
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction:column;
+    background-color:lightgrey;
+    border: 10px;
+    
+}
+.downrow{
+    display:flex;
+    flex-direction: row;
+}
+.downbox{
+    width:120px;
+    height: 120px;
+    /* background-color: blue; */
+    border:2px;
+    margin : 5px;
+    position: relative;
+    border-radius:8px;
+}
